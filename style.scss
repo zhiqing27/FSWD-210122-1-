@@ -1,0 +1,31 @@
+$base-color: #9BD6FB;
+$base-px:200px;
+
+.default {
+    background: $base-color;
+    width: $base-px;
+    height: $base-px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: $base-px 0 0 $base-px;
+    border-color: transparent transparent transparent $base-color;
+}
+
+.diamond {
+    margin-top: 3%;
+    margin-right: 10%;
+    transform: rotate(45deg);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}

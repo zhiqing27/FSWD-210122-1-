@@ -1,0 +1,35 @@
+.default {
+  background: #9BD6FB;
+  width: 200px;
+  height: 200px;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 200px 0 0 200px;
+  border-color: transparent transparent transparent #9BD6FB;
+}
+
+.diamond {
+  margin-top: 3%;
+  margin-right: 10%;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */
